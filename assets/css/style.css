@@ -43,7 +43,9 @@ a {
     }
     z-index: 999;
 }
-
+p {
+    font-family: "Montserrat";
+}
 #content {
     hyphens: auto;
     & h1 {
@@ -111,6 +113,49 @@ a {
             text-align: center;
         }
     }
+
+    #passion {
+        height: 1000px;
+        & h1 {
+            background-color: #ad63cf;
+            font-size: 2rem;
+            margin: 30px 20px;
+            padding: 10px 0;
+        }
+        & #btnPassion {
+            margin: 0 40px;
+            background-color: #ad63cf;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #passionRandom {
+            hyphens: auto;
+            margin: 10px 30px;
+            border-style: solid;
+            border-width: 3px;
+            border-color: #ad63cf;
+            background-color: white;
+
+            & h1 {
+                font-size: 1.3rem;
+                background-color: #ad63cf;
+                margin: 0;
+                text-align: center;
+                padding: 10px 0;
+            }
+
+            & img {
+                max-width: 80%;
+                margin: 0 auto;
+                display: block;
+                padding: 10px 0;
+            }
+            & p {
+                padding: 10px;
+            }
+        }
+    }
 }
 
 #background {
@@ -149,11 +194,16 @@ a {
     }
     & p {
         padding: 10px;
-        font-family: "Montserrat";
     }
     & .separator {
         background-color: #7AA7FF;
         width: 100%;
         height: 3px;
+    }
+
+    .linkProjects {
+        text-align: center;
+        background-color: #7AA7FF;
+        margin: 10px 30px;
     }
 }
