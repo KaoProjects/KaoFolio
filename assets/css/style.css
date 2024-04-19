@@ -17,9 +17,6 @@ html {
     background-position: -10px;
 }
 #content {display: none;}
-@media screen and (max-width: 400px) {
-    *{font-size: 8px;}
-}
 
 @media screen and (max-width: 480px) {
     & #error {display: none;}
